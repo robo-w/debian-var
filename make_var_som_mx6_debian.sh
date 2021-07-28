@@ -40,17 +40,17 @@ readonly G_VARISCITE_PATH="${DEF_BUILDENV}/variscite"
 
 ## LINUX kernel: git, config, paths and etc
 readonly G_LINUX_KERNEL_SRC_DIR="${DEF_SRC_DIR}/kernel"
-readonly G_LINUX_KERNEL_GIT="https://github.com/varigit/linux-imx.git"
-readonly G_LINUX_KERNEL_BRANCH="imx_5.4.70_2.3.0_var01"
-readonly G_LINUX_KERNEL_REV="2a54a41aaa9e614d45f307666235537229af3bf0"
+readonly G_LINUX_KERNEL_GIT="https://github.com/robo-w/linux-imx.git"
+readonly G_LINUX_KERNEL_BRANCH="robo-w/imx_4.9.88_2.0.0_ga-var01_patched"
+readonly G_LINUX_KERNEL_REV="6c7fdce71c5709b16b537af53ef8c02bd958d1e3"
 readonly G_LINUX_KERNEL_DEF_CONFIG='imx_v7_var_defconfig'
 readonly G_LINUX_DTB='imx6dl-var-som-cap.dtb imx6dl-var-som-res.dtb imx6dl-var-som-solo-cap.dtb imx6dl-var-som-solo-res.dtb imx6dl-var-som-solo-vsc.dtb imx6dl-var-som-vsc.dtb imx6q-var-dart.dtb imx6q-var-som-cap.dtb imx6q-var-som-res.dtb imx6q-var-som-vsc.dtb imx6qp-var-som-cap.dtb imx6qp-var-som-res.dtb imx6qp-var-som-vsc.dtb'
 
 ## uboot
 readonly G_UBOOT_SRC_DIR="${DEF_SRC_DIR}/uboot"
-readonly G_UBOOT_GIT="https://github.com/varigit/uboot-imx.git"
-readonly G_UBOOT_BRANCH="imx_v2017.03_4.9.11_1.0.0_ga_var01"
-readonly G_UBOOT_REV="a7869c2cde98e5f5b1886d8f54dff321a7aa0597"
+readonly G_UBOOT_GIT="https://github.com/robo-w/uboot-imx.git"
+readonly G_UBOOT_BRANCH="robo-w/imx_v2017.03_4.9.11_1.0.0_ga_var01_patched"
+readonly G_UBOOT_REV="8d5d41e996ccd6b2144dec42e4bac061b9b6fbac"
 readonly G_UBOOT_DEF_CONFIG_MMC='mx6var_som_sd_config'
 readonly G_UBOOT_DEF_CONFIG_NAND='mx6var_som_nand_config'
 readonly G_UBOOT_NAME_FOR_EMMC='u-boot.img.mmc'
